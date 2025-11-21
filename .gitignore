@@ -19,3 +19,8 @@ out/
 # Editors
 .vscode/
 .idea/
+
+# fonts (place locally; do not commit)
+assets/*.ttf
+assets/*.otf
+!assets/SourceHanSerifSC-VF.ttf.MISSING

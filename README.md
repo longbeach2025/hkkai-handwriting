@@ -13,6 +13,8 @@ Cantonese examples, 10×15 mm Mi-grids (×10), subtle watermark.
    - `parts.csv` (data, UTF-8 BOM; header: `part,char,jyut,examples`)
 3) (Optional) Clean CSV: `python scripts/clean_parts_csv.py`
 4) Generate PDFs: `python scripts/gen_hkkai_pdf_v1_0_4.py` → output in `dist/`
+5) Put `SourceHanSerifSC-VF.ttf` into `assets/` (see `assets/README_SourceHanSerifSC.md`).
+
 
 ## CSV Rules
 - Header: `part,char,jyut,examples`
